@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build artifacts
+build/
+*.manifest
+*.spec.bak
+
+# PyInstaller 生成的中间文件
+xref-*.html
+warn-*.txt
+
+# dist 里只保留源码产物说明，exe 本体走 GitHub Release
+dist/*.exe
+dist/DataOrganizer.zip
+
+# 个人测试数据与输出
+*_out/
+smoke_out*/
+bench_out/
+
+# 用户原始数据（CSV / 模板 / 截图），含产品信息，不入库
+*.csv
+模板.xlsx
+*上电配置.xlsx
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
